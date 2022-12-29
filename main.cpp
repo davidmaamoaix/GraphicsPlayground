@@ -1,6 +1,9 @@
 #include <iostream>
 
+#include "utils/renderer.h"
+#include "lab1/tracer.h"
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    Tracer tracer{512, 512};
+    renderScene(&tracer);
 }
