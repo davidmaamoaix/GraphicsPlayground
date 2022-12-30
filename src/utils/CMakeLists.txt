@@ -6,6 +6,7 @@ set(UTILS_HEADERS
     src/utils/Camera.h
 
     src/utils/math/Ray.h
+    src/utils/math/geometry.h
     )
 
 set(UTILS_SOURCES
@@ -14,6 +15,7 @@ set(UTILS_SOURCES
     src/utils/Camera.cpp
 
     src/utils/math/Ray.cpp
+    src/utils/math/geometry.cpp
     )
 
 list(APPEND GRAPHICS_HEADERS ${UTILS_HEADERS})
